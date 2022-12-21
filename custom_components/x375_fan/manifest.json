@@ -1,0 +1,10 @@
+{
+  "domain": "x375_fan",
+  "name": "Pi Fanspeed Controller for X375",
+  "documentation": "",
+  "dependencies": [],
+  "codeowners": ["@tmfone"],
+  "requirements": ["RPi.GPIO>=0.7.1"],
+  "iot_class": "local_polling",
+  "version": "0.1.0"
+}

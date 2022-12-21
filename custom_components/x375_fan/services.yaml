@@ -1,0 +1,6 @@
+set_speed:
+  description: Set x375 fan speed
+  fields:
+    new_speed:
+      description: New speed in percent
+      example: 100

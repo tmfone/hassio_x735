@@ -1,0 +1,12 @@
+- id: '1671629226580'
+  alias: Trigger X375 Fan Adjustments
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.processor_temperature
+  condition: []
+  action:
+  - service: python_script.x375_fancurve
+    data: {}
+  mode: single
