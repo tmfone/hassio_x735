@@ -1,6 +1,6 @@
 {
-  "domain": "x375_fan",
-  "name": "Pi Fanspeed Controller for X375",
+  "domain": "x735_fan",
+  "name": "Pi Fanspeed Controller for x735 V2.5 & V3.0",
   "documentation": "",
   "dependencies": [],
   "codeowners": ["@tmfone"],

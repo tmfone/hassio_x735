@@ -7,5 +7,5 @@ sensor:
       - type: memory_use_percent
       - type: processor_use
       - type: processor_temperature
-x375_fan:
+x735_fan:
 python_script:

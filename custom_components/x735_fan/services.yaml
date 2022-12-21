@@ -1,5 +1,5 @@
 set_speed:
-  description: Set x375 fan speed
+  description: Set x735 fan speed
   fields:
     new_speed:
       description: New speed in percent

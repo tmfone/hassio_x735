@@ -8,7 +8,7 @@ from homeassistant.core import HomeAssistant, ServiceCall
 from homeassistant.helpers.typing import ConfigType
 
 # The domain of your component. Should be equal to the name of your component.
-DOMAIN = "x375_fan"
+DOMAIN = "x735_fan"
 _LOGGER = logging.getLogger(__name__)
 
 servo = 13

@@ -1,5 +1,5 @@
 - id: '1671629226580'
-  alias: Trigger X375 Fan Adjustments
+  alias: Trigger x735 Fan Adjustments
   description: ''
   trigger:
   - platform: state
@@ -7,6 +7,6 @@
     - sensor.processor_temperature
   condition: []
   action:
-  - service: python_script.x375_fancurve
+  - service: python_script.x735_fancurve
     data: {}
   mode: single

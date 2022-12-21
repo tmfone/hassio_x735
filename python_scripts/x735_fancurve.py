@@ -18,5 +18,5 @@ else:
     speed = 0
 
 service_data = {"new_speed": speed}
-hass.services.call("x375_fan", "set_speed", service_data, False)
-logger.info("X375 fan speed set to {} ".format(speed))
+hass.services.call("x735_fan", "set_speed", service_data, False)
+logger.info("x735 fan speed set to {} ".format(speed))
