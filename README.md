@@ -1,6 +1,6 @@
 ## Introduction
 
-Since [Home Assistant](https://github.com/home-assistant) removed support from [Home Assistant Core](https://github.com/home-assistant/core) handling of [Geekworm's x735 Shield (V2.5 & V3.0)](https://github.com/geekworm-com/x735-v2.5) with PWM Fan Control can't be managed out of the box anymore. Therefore, we've created a custom component to handle the PWM fan control.
+Since [Home Assistant](https://github.com/home-assistant) removed GPIO support from [Home Assistant Core](https://github.com/home-assistant/core), handling of [Geekworm's x735 Shield (V2.5 & V3.0)](https://github.com/geekworm-com/x735-v2.5) with PWM Fan Control can't be managed out of the box anymore when using a Home Assistant OS installation. Therefore, we've created a custom component to handle the PWM fan control.
 
 ## Installation
 * Copy contents of folders custom_components and python_scripts into the respective folders within your Home Assistant configuration folder
