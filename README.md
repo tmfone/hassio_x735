@@ -16,5 +16,5 @@ This custom component for Home Assistant enables PWM fan control for [Geekworm's
 ## How it works
 Once set up following happens:
 * the automation triggers the python script 'x735_fancurve.py' whenever the temperature of the CPU changes
-* the pyhon script then reads the cpu temperature from 'sensor.processor_temperature', calculates the new fan speed, calls the service 'x735_fan.set_speed' and updates the sensor 'x735_fan.speed'
+* the python script then reads the cpu temperature from 'sensor.processor_temperature', calculates the new fan speed, calls the service 'x735_fan.set_speed' and updates the sensor 'x735_fan.speed'
 * the service 'x735_fan.set_speed' then changes the fan speed using RPi.GPIO
